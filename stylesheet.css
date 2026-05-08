@@ -3,6 +3,12 @@ body{
   
 }
 
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+}
+
 header{
     background-color: white;
     text-align: center;
