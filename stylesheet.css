@@ -64,28 +64,3 @@ footer{
     text-align: center;
     padding: 10px;
 }
-
-.carousel{
-  display: flex;
-  gap: 20px;
-  padding: 40px;
-  width: max-content;
-  animation: slide 30s linear infinite;
-}
-
-.carousel img{
-  width: 400px;
-  height: 500px;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-@keyframes slide {
-      from {
-        transform: translateX(0);
-      }
-
-      to {
-        transform: translateX(-50%);
-      }
-}
